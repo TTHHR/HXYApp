@@ -6,4 +6,108 @@
     android:layout_height="match_parent"
     tools:context="cn.qingyuyu.hxyapp.MainActivity">
 
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/accxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/accyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/acczt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/gyroxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/gyroyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/gyrozt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/magxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/magyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/magzt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="mm"
+                app:bootstrapBrand="success" />
+        </TableRow>
+
+    </TableLayout>
 </android.support.constraint.ConstraintLayout>
